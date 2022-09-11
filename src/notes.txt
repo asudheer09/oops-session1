@@ -1,0 +1,27 @@
+Types of variables : 3
+1. Local ( method/ constructor /block)
+	scope: within method/block /constructor
+	default values provided by programmer.
+2. Instance ( inside a class without static modifier)
+	scope : when an obj is created that time instance will be created, when object is destroyed then instance
+	variables will be destroyed.
+	default values will be provided by jvm.
+	for every object a separate copy will be created.
+3. static ( inside a class with static modifier)
+   at the time of class loading the static variables will be created.
+   scope or life time : class
+   only one copy will be created that will be shared by all the objects.
+
+   Constructor: is a special method.
+   It provides values to the varaibles inside the class.
+
+   In java we have 2 types of constructors
+   1. default or zero arg-constructor  ( If we dont create any constructor in our class then jvm will create default constructor)
+   2. parameterized
+
+   constructor rules:
+   1. constructor name and class name should match.
+   2. constructor does not have any return type include void.
+   3. we can write any no of constructors in a class ( Constructor overlaoding)
+   4. If we dont create any constructor then jvm will create default constructor.
+   5. If we create any constructor then jvm will not create default constructor.
